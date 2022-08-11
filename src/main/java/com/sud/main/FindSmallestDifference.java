@@ -23,6 +23,7 @@ public class FindSmallestDifference {
             if(diff < difference)
             {
                 results= new int[]{val1,val2};
+                difference = diff;
 
             }
             if (val1 < val2)
